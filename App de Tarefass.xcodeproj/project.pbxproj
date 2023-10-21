@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AA842472AE472B500E77BC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA842462AE472B500E77BC4 /* AppDelegate.swift */; };
+		3AA842492AE472B500E77BC4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA842482AE472B500E77BC4 /* SceneDelegate.swift */; };
+		3AA8424B2AE472B500E77BC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA8424A2AE472B500E77BC4 /* ViewController.swift */; };
+		3AA8424E2AE472B500E77BC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AA8424C2AE472B500E77BC4 /* Main.storyboard */; };
+		3AA842512AE472B500E77BC4 /* App_de_Tarefass.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3AA8424F2AE472B500E77BC4 /* App_de_Tarefass.xcdatamodeld */; };
+		3AA842532AE472B600E77BC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AA842522AE472B600E77BC4 /* Assets.xcassets */; };
+		3AA842562AE472B600E77BC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AA842542AE472B600E77BC4 /* LaunchScreen.storyboard */; };
+		3AA842612AE472B600E77BC4 /* App_de_TarefassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA842602AE472B600E77BC4 /* App_de_TarefassTests.swift */; };
+		3AA8426B2AE472B600E77BC4 /* App_de_TarefassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA8426A2AE472B600E77BC4 /* App_de_TarefassUITests.swift */; };
+		3AA8426D2AE472B600E77BC4 /* App_de_TarefassUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA8426C2AE472B600E77BC4 /* App_de_TarefassUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3AA8425D2AE472B600E77BC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AA8423B2AE472B500E77BC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AA842422AE472B500E77BC4;
+			remoteInfo = "App de Tarefass";
+		};
+		3AA842672AE472B600E77BC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AA8423B2AE472B500E77BC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AA842422AE472B500E77BC4;
+			remoteInfo = "App de Tarefass";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3AA842432AE472B500E77BC4 /* App de Tarefass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App de Tarefass.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AA842462AE472B500E77BC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3AA842482AE472B500E77BC4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3AA8424A2AE472B500E77BC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3AA8424D2AE472B500E77BC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3AA842502AE472B500E77BC4 /* App_de_Tarefass.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = App_de_Tarefass.xcdatamodel; sourceTree = "<group>"; };
+		3AA842522AE472B600E77BC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AA842552AE472B600E77BC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3AA842572AE472B600E77BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AA8425C2AE472B600E77BC4 /* App de TarefassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "App de TarefassTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AA842602AE472B600E77BC4 /* App_de_TarefassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_de_TarefassTests.swift; sourceTree = "<group>"; };
+		3AA842662AE472B600E77BC4 /* App de TarefassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "App de TarefassUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AA8426A2AE472B600E77BC4 /* App_de_TarefassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_de_TarefassUITests.swift; sourceTree = "<group>"; };
+		3AA8426C2AE472B600E77BC4 /* App_de_TarefassUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_de_TarefassUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AA842402AE472B500E77BC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AA842592AE472B600E77BC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AA842632AE472B600E77BC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AA8423A2AE472B500E77BC4 = {
+			isa = PBXGroup;
+			children = (
+				3AA842452AE472B500E77BC4 /* App de Tarefass */,
+				3AA8425F2AE472B600E77BC4 /* App de TarefassTests */,
+				3AA842692AE472B600E77BC4 /* App de TarefassUITests */,
+				3AA842442AE472B500E77BC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3AA842442AE472B500E77BC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AA842432AE472B500E77BC4 /* App de Tarefass.app */,
+				3AA8425C2AE472B600E77BC4 /* App de TarefassTests.xctest */,
+				3AA842662AE472B600E77BC4 /* App de TarefassUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AA842452AE472B500E77BC4 /* App de Tarefass */ = {
+			isa = PBXGroup;
+			children = (
+				3AA842462AE472B500E77BC4 /* AppDelegate.swift */,
+				3AA842482AE472B500E77BC4 /* SceneDelegate.swift */,
+				3AA8424A2AE472B500E77BC4 /* ViewController.swift */,
+				3AA8424C2AE472B500E77BC4 /* Main.storyboard */,
+				3AA842522AE472B600E77BC4 /* Assets.xcassets */,
+				3AA842542AE472B600E77BC4 /* LaunchScreen.storyboard */,
+				3AA842572AE472B600E77BC4 /* Info.plist */,
+				3AA8424F2AE472B500E77BC4 /* App_de_Tarefass.xcdatamodeld */,
+			);
+			path = "App de Tarefass";
+			sourceTree = "<group>";
+		};
+		3AA8425F2AE472B600E77BC4 /* App de TarefassTests */ = {
+			isa = PBXGroup;
+			children = (
+				3AA842602AE472B600E77BC4 /* App_de_TarefassTests.swift */,
+			);
+			path = "App de TarefassTests";
+			sourceTree = "<group>";
+		};
+		3AA842692AE472B600E77BC4 /* App de TarefassUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3AA8426A2AE472B600E77BC4 /* App_de_TarefassUITests.swift */,
+				3AA8426C2AE472B600E77BC4 /* App_de_TarefassUITestsLaunchTests.swift */,
+			);
+			path = "App de TarefassUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AA842422AE472B500E77BC4 /* App de Tarefass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AA842702AE472B600E77BC4 /* Build configuration list for PBXNativeTarget "App de Tarefass" */;
+			buildPhases = (
+				3AA8423F2AE472B500E77BC4 /* Sources */,
+				3AA842402AE472B500E77BC4 /* Frameworks */,
+				3AA842412AE472B500E77BC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "App de Tarefass";
+			productName = "App de Tarefass";
+			productReference = 3AA842432AE472B500E77BC4 /* App de Tarefass.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3AA8425B2AE472B600E77BC4 /* App de TarefassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AA842732AE472B600E77BC4 /* Build configuration list for PBXNativeTarget "App de TarefassTests" */;
+			buildPhases = (
+				3AA842582AE472B600E77BC4 /* Sources */,
+				3AA842592AE472B600E77BC4 /* Frameworks */,
+				3AA8425A2AE472B600E77BC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AA8425E2AE472B600E77BC4 /* PBXTargetDependency */,
+			);
+			name = "App de TarefassTests";
+			productName = "App de TarefassTests";
+			productReference = 3AA8425C2AE472B600E77BC4 /* App de TarefassTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3AA842652AE472B600E77BC4 /* App de TarefassUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AA842762AE472B600E77BC4 /* Build configuration list for PBXNativeTarget "App de TarefassUITests" */;
+			buildPhases = (
+				3AA842622AE472B600E77BC4 /* Sources */,
+				3AA842632AE472B600E77BC4 /* Frameworks */,
+				3AA842642AE472B600E77BC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AA842682AE472B600E77BC4 /* PBXTargetDependency */,
+			);
+			name = "App de TarefassUITests";
+			productName = "App de TarefassUITests";
+			productReference = 3AA842662AE472B600E77BC4 /* App de TarefassUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AA8423B2AE472B500E77BC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3AA842422AE472B500E77BC4 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					3AA8425B2AE472B600E77BC4 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 3AA842422AE472B500E77BC4;
+					};
+					3AA842652AE472B600E77BC4 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 3AA842422AE472B500E77BC4;
+					};
+				};
+			};
+			buildConfigurationList = 3AA8423E2AE472B500E77BC4 /* Build configuration list for PBXProject "App de Tarefass" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3AA8423A2AE472B500E77BC4;
+			productRefGroup = 3AA842442AE472B500E77BC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AA842422AE472B500E77BC4 /* App de Tarefass */,
+				3AA8425B2AE472B600E77BC4 /* App de TarefassTests */,
+				3AA842652AE472B600E77BC4 /* App de TarefassUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AA842412AE472B500E77BC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AA842562AE472B600E77BC4 /* LaunchScreen.storyboard in Resources */,
+				3AA842532AE472B600E77BC4 /* Assets.xcassets in Resources */,
+				3AA8424E2AE472B500E77BC4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AA8425A2AE472B600E77BC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AA842642AE472B600E77BC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AA8423F2AE472B500E77BC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AA8424B2AE472B500E77BC4 /* ViewController.swift in Sources */,
+				3AA842512AE472B500E77BC4 /* App_de_Tarefass.xcdatamodeld in Sources */,
+				3AA842472AE472B500E77BC4 /* AppDelegate.swift in Sources */,
+				3AA842492AE472B500E77BC4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AA842582AE472B600E77BC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AA842612AE472B600E77BC4 /* App_de_TarefassTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AA842622AE472B600E77BC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AA8426D2AE472B600E77BC4 /* App_de_TarefassUITestsLaunchTests.swift in Sources */,
+				3AA8426B2AE472B600E77BC4 /* App_de_TarefassUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3AA8425E2AE472B600E77BC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AA842422AE472B500E77BC4 /* App de Tarefass */;
+			targetProxy = 3AA8425D2AE472B600E77BC4 /* PBXContainerItemProxy */;
+		};
+		3AA842682AE472B600E77BC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AA842422AE472B500E77BC4 /* App de Tarefass */;
+			targetProxy = 3AA842672AE472B600E77BC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3AA8424C2AE472B500E77BC4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AA8424D2AE472B500E77BC4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3AA842542AE472B600E77BC4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AA842552AE472B600E77BC4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3AA8426E2AE472B600E77BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3AA8426F2AE472B600E77BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AA842712AE472B600E77BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "App de Tarefass/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lucas-Oliveira.App-de-Tarefass";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3AA842722AE472B600E77BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "App de Tarefass/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lucas-Oliveira.App-de-Tarefass";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3AA842742AE472B600E77BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lucas-Oliveira.App-de-TarefassTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App de Tarefass.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/App de Tarefass";
+			};
+			name = Debug;
+		};
+		3AA842752AE472B600E77BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lucas-Oliveira.App-de-TarefassTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App de Tarefass.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/App de Tarefass";
+			};
+			name = Release;
+		};
+		3AA842772AE472B600E77BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lucas-Oliveira.App-de-TarefassUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "App de Tarefass";
+			};
+			name = Debug;
+		};
+		3AA842782AE472B600E77BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lucas-Oliveira.App-de-TarefassUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "App de Tarefass";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AA8423E2AE472B500E77BC4 /* Build configuration list for PBXProject "App de Tarefass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AA8426E2AE472B600E77BC4 /* Debug */,
+				3AA8426F2AE472B600E77BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AA842702AE472B600E77BC4 /* Build configuration list for PBXNativeTarget "App de Tarefass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AA842712AE472B600E77BC4 /* Debug */,
+				3AA842722AE472B600E77BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AA842732AE472B600E77BC4 /* Build configuration list for PBXNativeTarget "App de TarefassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AA842742AE472B600E77BC4 /* Debug */,
+				3AA842752AE472B600E77BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AA842762AE472B600E77BC4 /* Build configuration list for PBXNativeTarget "App de TarefassUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AA842772AE472B600E77BC4 /* Debug */,
+				3AA842782AE472B600E77BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3AA8424F2AE472B500E77BC4 /* App_de_Tarefass.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3AA842502AE472B500E77BC4 /* App_de_Tarefass.xcdatamodel */,
+			);
+			currentVersion = 3AA842502AE472B500E77BC4 /* App_de_Tarefass.xcdatamodel */;
+			path = App_de_Tarefass.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3AA8423B2AE472B500E77BC4 /* Project object */;
+}
