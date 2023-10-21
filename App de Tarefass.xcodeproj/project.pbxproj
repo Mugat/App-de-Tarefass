@@ -17,6 +17,7 @@
 		3AA842612AE472B600E77BC4 /* App_de_TarefassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA842602AE472B600E77BC4 /* App_de_TarefassTests.swift */; };
 		3AA8426B2AE472B600E77BC4 /* App_de_TarefassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA8426A2AE472B600E77BC4 /* App_de_TarefassUITests.swift */; };
 		3AA8426D2AE472B600E77BC4 /* App_de_TarefassUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA8426C2AE472B600E77BC4 /* App_de_TarefassUITestsLaunchTests.swift */; };
+		3AA8427A2AE472EF00E77BC4 /* PROJETIN in Resources */ = {isa = PBXBuildFile; fileRef = 3AA842792AE472EF00E77BC4 /* PROJETIN */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		3AA842662AE472B600E77BC4 /* App de TarefassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "App de TarefassUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AA8426A2AE472B600E77BC4 /* App_de_TarefassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_de_TarefassUITests.swift; sourceTree = "<group>"; };
 		3AA8426C2AE472B600E77BC4 /* App_de_TarefassUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_de_TarefassUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3AA842792AE472EF00E77BC4 /* PROJETIN */ = {isa = PBXFileReference; lastKnownFileType = text; path = PROJETIN; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				3AA842542AE472B600E77BC4 /* LaunchScreen.storyboard */,
 				3AA842572AE472B600E77BC4 /* Info.plist */,
 				3AA8424F2AE472B500E77BC4 /* App_de_Tarefass.xcdatamodeld */,
+				3AA842792AE472EF00E77BC4 /* PROJETIN */,
 			);
 			path = "App de Tarefass";
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 				3AA842562AE472B600E77BC4 /* LaunchScreen.storyboard in Resources */,
 				3AA842532AE472B600E77BC4 /* Assets.xcassets in Resources */,
 				3AA8424E2AE472B500E77BC4 /* Main.storyboard in Resources */,
+				3AA8427A2AE472EF00E77BC4 /* PROJETIN in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

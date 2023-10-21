@@ -1,0 +1,61 @@
+// Classe Task que representa uma tarefa
+class Task {
+    var title: String
+    var isCompleted: Bool
+
+    init(title: String) {
+        self.title = title
+        self.isCompleted = false
+    }
+}
+
+// Struct TaskList que representa uma lista de tarefas
+struct TaskList {
+    var name: String
+    var tasks: [Task] = []
+
+    mutating func addTask(_ task: Task) {
+        tasks.append(task)
+    }
+}
+
+// Enum para representar o estado de uma tarefa (concluída ou não)
+enum TaskStatus {
+    case incomplete
+    case complete
+}
+
+// Função para filtrar tarefas concluídas em uma lista de tarefas
+func filterCompletedTasks(in taskList: TaskList) -> [Task] {
+    let completedTasks = taskList.tasks.filter { $0.isCompleted }
+    return completedTasks
+}
+
+// Closure que ordena uma lista de tarefas por título
+let sortByTitle: (Task, Task) -> Bool = { task1, task2 in
+    return task1.title < task2.title
+}
+
+// Exemplo de controle de fluxo para marcar uma tarefa como concluída
+func markTaskAsComplete(_ task: Task) {
+    if !task.isCompleted {
+        task.isCompleted = true
+        print("Tarefa '\(task.title)' marcada como concluída.")
+    } else {
+        print("Tarefa '\(task.title)' já está concluída.")
+    }
+}
+import Foundation
+
+// Exemplo de execução de uma operação em segundo plano
+let backgroundQueue = DispatchQueue.global(qos: .background)
+
+backgroundQueue.async {
+    // Simulando uma tarefa demorada
+    sleep(3)
+    print("Operação em segundo plano concluída.")
+}
+
+print("Aguarde a conclusão da operação em segundo plano...")
+
+
